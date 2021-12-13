@@ -66,4 +66,12 @@ sink()
 # показать файлы в рабочем каталоге
 list.files(all.files = TRUE)
 
+#узнать тип переменной
+xx <- 125
+xy <- "slon"
+
+class(xx)
+class(xy)
+
+
 
